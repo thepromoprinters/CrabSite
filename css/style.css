@@ -442,8 +442,8 @@ ol.type li a.active { font-weight: 700; }
 	border-radius: 50%;
 	color: #FCAC45;
 }
-/* Testimonials Section */
-#tf-testimonials{
+/* Events Section */
+#tf-events{
 	background: url(../img/CrabGuitar.jpg);
 	background-size: cover;
 	background-position: center;
@@ -452,7 +452,7 @@ ol.type li a.active { font-weight: 700; }
 	color: #ffffff;
 }
 
-#tf-testimonials .overlay{
+#tf-events .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
@@ -463,16 +463,16 @@ ol.type li a.active { font-weight: 700; }
 	padding: 80px 0;
 	background-attachment: fixed;
 }
-#testimonial {
+#events {
 	padding: 30px 0;
 }
-#testimonial .item{
+#events .item{
     display: block;
     width: 100%;
     height: auto;
 }
 
-#testimonial .item p {
+#events .item p {
 	font-weight: 400;
 	margin: 30px 0;
 	color: #d1d1d1;
