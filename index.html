@@ -64,7 +64,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#tf-home" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
+            <li><a href="#tf-about" class="page-scroll js-scroll-trigger">About</a></li>
             <li><a href="#tf-team" class="page-scroll">Team</a></li>
             <li><a href="#tf-services" class="page-scroll">Services</a></li>
         <!--<li><a href="#tf-portfolio" class="page-scroll">Portfolio</a></li>-->
@@ -586,6 +586,12 @@ Brewmaster Justin "Maggs" Maggard brings years of experience as a passionate and
 
     <script src="js/owl.carousel.js"></script>
 
+    <script type="text/javascript">    
+           $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+      </script>
+    
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
