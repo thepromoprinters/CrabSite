@@ -585,17 +585,17 @@ body {
 
 .contact-in:nth-child(1) {
 	flex: 30%;
-	background: url(../images/1.jpg);
+	background: url(../img/BeerTable.jpg);
 	color: #fff;
 }
 
 .contact-in:nth-child(2) {
-	flex: 45%;
-	background: #c31432;
+	flex: 35%;
+	background: #be3a1c;
 }
 
 .contact-in:nth-child(3) {
-	flex: 25%;
+	flex: 35%;
 	padding: 0;
 }
 
