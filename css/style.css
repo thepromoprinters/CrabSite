@@ -463,16 +463,16 @@ ol.type li a.active { font-weight: 700; }
 	padding: 80px 0;
 	background-attachment: fixed;
 }
-#events {
+#testimonial {
 	padding: 30px 0;
 }
-#events .item{
+#testimonial .item{
     display: block;
     width: 100%;
     height: auto;
 }
 
-#events .item p {
+#testimonial .item p {
 	font-weight: 400;
 	margin: 30px 0;
 	color: #d1d1d1;
