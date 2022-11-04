@@ -481,7 +481,33 @@ Brewmaster Justin "Maggs" Maggard brings years of experience as a passionate and
     <!-- Events Section
     ==========================================-->
     <div id="tf-events" class="text-center">
-        <div class="overlay">
+      
+      <style>
+.responsiveCal {
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+}
+ 
+.responsiveCal iframe {
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+}
+
+@media all and (min-width: 768px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
+
+@media all and (max-width: 767px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
+}
+</style>
+<div class="responsiveCal">
+<div class="deskContent"><iframe src="https://calendar.google.com/calendar/embed?src=m7djtqdm8q7b43kol0nu295sko%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+<div class="phoneContent"><iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;src=m7djtqdm8q7b43kol0nu295sko%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="280" height="500" frameborder="0" scrolling="no"></iframe></div></div>
+      
+      
+        <!-- <div class="overlay">
             <div class="container">
                 <div class="section-title center">
                     <h2><strong>Our clients’</strong> events</h2>
@@ -504,7 +530,7 @@ Brewmaster Justin "Maggs" Maggard brings years of experience as a passionate and
 
                             <div class="item">
                                 <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p> -->
                             </div>
                         </div>
                     </div>
