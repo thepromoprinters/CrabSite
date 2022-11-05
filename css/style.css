@@ -444,7 +444,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Events Section */
 #tf-events{
-	background: url(../img/CrabGuitar.jpg);
+	<!--background: url(../img/CrabGuitar.jpg);-->
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
